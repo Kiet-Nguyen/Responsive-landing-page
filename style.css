@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --gray: #424242;
+  --gray-500: #919191;
+  --gray-300: #e4e4e5;
+  --gray-200: #f1f5f1;
+  --blue: #4f98ea;
+  --blue-gray: #879cbd;
+  --white: #fff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--gray-500);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.title-highlight {
+  color: var(--gray-200);
+}
+
+
+/****************************************
+  * GLOBAL
+**/
+
+.container {
+  width: 990px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+/* .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} */
+
+/******* Image *******/
+.img-responsive {
+  width: 100%;
+  height: 100%;
+}
+
+/******* Buttons *******/
+
+.btn {
+  border: transparent;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-blue {
+  padding: 12px 40px;
+  background-color: var(--blue);
+  color: var(--gray-200);
+}
+
+.btn-gray200 {
+  padding: 12px 40px;
+  background-color: var(--gray-200);
+  color: var(--gray);
+}
+
+/******* Links *******/
+.anchor {
+  text-decoration: none;
+}
+
+/****************************************
+  * HEADER
+**/
+
+.header {
+  padding: 1.5rem 1rem 0 1rem;
+  background-color: var(--gray);
+}
+
+.header-title {
+  margin-bottom: 2.5rem;
+}
+
+.header-text {
+  margin-bottom: 2rem;
+}
+
+.header-columns {
+  margin-bottom: 2rem;
+}
+
+.col-left,
+.col-right {
+  flex: 1 50%;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: var(--blue);
+}
+
+.banner-title {
+  z-index: 20;
+  padding-left: 40px;
+  color: var(--gray-300);
+}
+
+.arrow {
+  position: relative;
+}
+
+.banner::after {
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  content: '';
+  width: 135px;
+  height: 110px;
+  background-color: var(--blue);
+  clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);
+}
+
+
+/****************************************
+  * MEDIA QUERIES
+**/
+@media only screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-left,
+  .col-right {
+    flex: 2 100%;
+  }
+
+  /****************************************
+    * HEADER
+  **/
+  .banner {
+    display: none;
+  }
+}
