@@ -6,24 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Oswald:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Integrify</title>
 </head>
 
 <body>
-  <header class="header">
+  <header id="top" class="header">
     <div class="container">
       <div class="row header-columns">
         <!-- Left column -->
-        <div class="col-left">
+        <div class="col-6">
           <img class="img-responsive" src="assets/Header-img.png" alt="Header Image">
         </div>
 
         <!-- Right column -->
-        <div class="col-right">
+        <div class="col-6">
           <h1 class="header-title">
-            <span class="title-highlight"><i>Powerfully Simple </i></span> with a <br> 
-            <span class="title-highlight"><i>Squeeky Clean </i></span> design.
+            <span class="h1-highlight">
+              <i>Powerfully Simple </i>
+            </span> with a
+            <br>
+            <span class="h1-highlight">
+              <i>Squeeky Clean </i>
+            </span> design.
           </h1>
 
           <p class="header-text">
@@ -32,50 +39,417 @@
 
           <a class="anchor btn btn-blue" href="#">Learn more</a>
         </div>
-      </div> <!-- /.row -->
-      
+      </div>
+      <!-- /.row -->
+
       <div class="banner">
         <h2 class="banner-title">
           Create a
-          <span class="title-highlight">
+          <span class="h1-highlight">
             <i>powerful </i>
           </span> solution now
         </h2>
         <a class="anchor btn btn-gray200" href="#">Get started</a>
       </div>
-    </div> <!-- /.container -->
+    </div>
+    <!-- /.container -->
   </header>
 
-  <main class="main">
+  <main class="main border-img">
     <div class="container">
       <section class="section-intro">
         <div class="row">
+          <!-- Item 1 -->
           <div class="col-3">
-            <div class="intro-item">
-              <div>
-                <img src="" alt="">
+            <div class="intro-item hover-effect">
+              <div class="intro-item__icon mb-1">
+                <i class="fas fa-mobile-alt fa-icon"></i>
               </div>
-      
-              <h3>
-                <em>Superly</em> responsive</h3>
-      
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+              <h3 class="intro-item__header mb-1">
+                <b class="h3-highlight">Superly</b> responsive
+              </h3>
+
+              <p class="intro-item__text mb-1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
+
+              <a class="anchor btn btn-blue btn-sm mb-1" href="#">Read more</a>
             </div>
           </div>
           <!-- /.col-3 -->
-      
-          <div class="col-3"></div>
-          <div class="col-3"></div>
-          <div class="col-3"></div>
+
+          <!-- Item 2 -->
+          <div class="col-3">
+            <div class="intro-item hover-effect">
+              <div class="intro-item__icon mb-1">
+                <i class="fas fa-tv fa-icon"></i>
+              </div>
+
+              <h3 class="intro-item__header mb-1">
+                <b class="h3-highlight">Squeeky</b> clean</h3>
+
+              <p class="intro-item__text mb-1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+              </p>
+
+              <a class="anchor btn btn-blue btn-sm mb-1" href="#">Read more</a>
+            </div>
+          </div>
+          <!-- /.col-3 -->
+
+          <!-- Item 3 -->
+          <div class="col-3">
+            <div class="intro-item hover-effect">
+              <div class="intro-item__icon mb-1">
+                <i class="fas fa-laptop fa-icon"></i>
+              </div>
+
+              <h3 class="intro-item__header mb-1">
+                <b class="h3-highlight">Multi</b> purpose</h3>
+
+              <p class="intro-item__text mb-1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+              </p>
+
+              <a class="anchor btn btn-blue btn-sm mb-1" href="#">Read more</a>
+            </div>
+          </div>
+          <!-- /.col-3 -->
+
+          <!-- Item 4 -->
+          <div class="col-3">
+            <div class="intro-item hover-effect">
+              <div class="intro-item__icon mb-1">
+                <i class="fas fa-recycle fa-icon"></i>
+              </div>
+
+              <h3 class="intro-item__header mb-1">
+                <b class="h3-highlight">Highly</b> flexible</h3>
+
+              <p class="intro-item__text mb-1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+              </p>
+
+              <a class="anchor btn btn-blue btn-sm mb-1" href="#">Read more</a>
+            </div>
+          </div>
+          <!-- /.col-3 -->
         </div>
         <!-- /.row -->
       </section>
 
-    </div> <!-- /.container -->
+      <!-- Section work -->
+      <section class="section-work border-img">
+        <h4 class="absolut-heading">Recent work</h4>
+
+        <div class="row">
+          <!-- Blog Item 1 -->
+          <div class="col-4">
+            <div class="blog-item arrow-after shadow-effect">
+              <div class="blog-item__image">
+                <img src="assets/img-placeholder.png" alt="Blog image" class="img-responsive">
+              </div>
+              
+              <h5 class="blog-item__title">Blog title</h5>
+              
+              <p class="blog-item__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <!-- /.col-4 -->
+
+          <!-- Blog Item 2 -->
+          <div class="col-4">
+            <div class="blog-item arrow-after shadow-effect">
+              <div class="blog-item__image">
+                <img src="assets/img-placeholder.png" alt="Blog image" class="img-responsive">
+              </div>
+
+              <h5 class="blog-item__title">Blog title</h5>
+
+              <p class="blog-item__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <!-- /.col-4 -->
+
+          <!-- Blog Item 3 -->
+          <div class="col-4">
+            <div class="blog-item arrow-after shadow-effect">
+              <div class="blog-item__image">
+                <img src="assets/img-placeholder.png" alt="Blog image" class="img-responsive">
+              </div>
+
+              <h5 class="blog-item__title">Blog title</h5>
+
+              <p class="blog-item__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <!-- /.col-4 -->
+        </div>
+        <!-- /.row -->
+      </section>
+
+      <!-- Section testimonials and development -->
+      <div class="row">
+        <div class="col-8">
+          <div class="section-testimonial border-img">
+            <h4 class="absolut-heading">Testimonials</h4>
+            <div class="row">
+              <!-- Testimonial 1 -->
+              <div class="col-6">
+                <div class="testimonial-item arrow-after shadow-effect">
+                  <h5 class="testimonial-item__title">John Smith</h5>
+                  
+                  <q class="testimonial-item__quote">
+                    <i>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </i>
+                  </q>
+                </div>
+              </div>
+              <!-- /.col-6 -->
+
+              <!-- Testimonial 2 -->
+              <div class="col-6">
+                <div class="testimonial-item arrow-after shadow-effect">
+                  <h5 class="testimonial-item__title">Jessica Johnson</h5>
+                  
+                  <q class="testimonial-item__quote">
+                    <i>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </i>
+                  </q>
+                </div>
+              </div>
+              <!-- /.col-6 -->
+
+              <!-- Testimonial 3 -->
+              <div class="col-6">
+                <div class="testimonial-item arrow-after shadow-effect">
+                  <h5 class="testimonial-item__title">James Parker</h5>
+                
+                  <q class="testimonial-item__quote">
+                    <i>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </i>
+                  </q>
+                </div>
+              </div>
+              <!-- /.col-6 -->
+
+              <!-- Testimonial 4 -->
+              <div class="col-6">
+                <div class="testimonial-item arrow-after shadow-effect">
+                  <h5 class="testimonial-item__title">Mike Schumacher</h5>
+                
+                  <q class="testimonial-item__quote">
+                    <i>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </i>
+                  </q>
+                </div>
+              </div>
+              <!-- /.col-6 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.section-testimonial -->
+        </div>
+        <!-- /.col-8 -->
+
+        <aside class="col-4">
+          <div class="section-development border-img">
+            <h4 class="absolut-heading">Development</h4>
+
+            <div class="tabs">
+              <!-- Tab 1 -->
+              <div class="tab">
+                <input type="radio" id="tab-1" name="tab-group-1" checked>
+                <label class="tab__label btn btn-gray200" for="tab-1">Design</label>
+            
+                <div class="tab__content">
+                  <h5 class="content-title">The design</h5>
+
+                  <p class="content-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                  <div class="content-quote">
+                    <q>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </q>
+                  </div>
+
+                  <a class=" anchor btn-sm btn-blue tab-btn" href="#">Read more</a>
+                </div>
+              </div>
+            
+              <!-- Tab 2 -->
+              <div class="tab">
+                <input type="radio" id="tab-2" name="tab-group-1">
+                <label class="tab__label btn btn-gray200" for="tab-2">Production</label>
+            
+                <div class="tab__content">
+                  <h5 class="content-title">The production</h5>
+                
+                  <p class="content-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                  </p>
+                
+                  <div class="content-quote">
+                    <q>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </q>
+                  </div>
+                
+                  <a class=" anchor btn-sm btn-blue tab-btn" href="#">Read more</a>
+                </div>
+              </div>
+              <!-- /.tab -->
+            </div>
+            <!-- /.tabs -->
+          </div>
+        </aside>
+      </div>
+
+      <div class="banner">
+        <h5 class="h2 banner-title">
+          Get in touch with us 
+          <span class="h1-highlight">
+            <i>now </i>
+          </span>
+        </h5>
+        <a class="anchor btn btn-gray200" href="#">Contact us</a>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
   </main>
+
+  <footer>
+    <div class="section-footer">
+      <div class="container">
+        <div class="row">
+          <!-- About us -->
+          <div class="col-3 mx-5 ml-0 py-1">
+            <h5 class="h4 text-white mb-2">About us</h5>
+      
+            <p class="mb-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+      
+            <p>
+              123 Street name
+              <br> Road name
+              <br> Finland
+              <br> +358 1234567
+            </p>
+          </div>
+          <!-- /.col-3 -->
+      
+          <!-- Latest tweets -->
+          <div class="col-3 mx-5 py-1">
+            <h5 class="h4 text-white mb-2">Latest tweets</h5>
+      
+            <p class="mb-2">
+              <span class="text-white">@Jaynesh </span>
+              Just submitted another great item on
+              <span class="text-white">@themeforest </span>
+              <br>
+              <span class="text-small">about 3 hours ago.</span>
+            </p>
+      
+            <p>
+              <span class="text-white">@Jaynesh</span>
+              Working on an awesome theme for
+              <span class="text-white">@themeforest</span>
+              <br>
+              <span class="text-small">about 3 hours ago.</span>
+            </p>
+          </div>
+          <!-- /.col-3 -->
+      
+          <!-- Latest posts -->
+          <div class="col-3 mx-5 py-1">
+            <h5 class="h4 text-white mb-2">Latest posts</h5>
+      
+            <p class="mb-2 post-item">
+              Lorem ipsum dolor sit amet consec...
+            </p>
+      
+            <p class="mb-2 post-item text-blue">
+              Sed do eiusmod tempor incididunt ut labore et...
+            </p>
+      
+            <p class="mb-2 post-item">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...
+            </p>
+      
+            <p class="mb-2 post-item">
+              Lorem ipsum dolor sit amet,...
+            </p>
+          </div>
+          <!-- /.col-3 -->
+      
+          <!-- Flickr -->
+          <div class="col-3 mx-5 py-1 mr-0">
+            <h5 class="h4 text-white mb-2">Flickr</h5>
+      
+            <div class="flex-container">
+              <div class="col-3 flex-item"></div>
+              <div class="col-3 flex-item"></div>
+              <div class="col-3 flex-item"></div>
+              <div class="col-3 flex-item"></div>
+              <div class="col-3 flex-item"></div>
+              <div class="col-3 flex-item"></div>
+              <div class="col-3 flex-item"></div>
+              <div class="col-3 flex-item"></div>
+            </div>
+          </div>
+          <!-- /.col-3 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    
+    <div class="copyright py-2 pr-6">
+      <!-- <div class="pr-2"> -->
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <p class="copyright__text">
+                Copyright @ 2017-2018 Ventus Inc. All right reserved.
+              </p>
+            </div>
+        
+            <div class="col-6">
+              <div class="copyright__media float">
+                <i class="fab fa-twitter-square media-icon"></i>
+                <i class="fab fa-facebook-square media-icon"></i>
+                <i class="fab fa-vimeo-square media-icon"></i>
+                <i class="fas fa-piggy-bank media-icon"></i>
+                <i class="fab fa-google-plus-square media-icon"></i>
+                <i class="fab fa-pinterest-square media-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+
+      <div>
+        <a class="anchor scroll-top-btn" href="#top">
+          <i class="fas fa-arrow-alt-circle-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
