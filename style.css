@@ -283,12 +283,7 @@ h5 {
 
 .border-img {
   border-top: 12px solid transparent;
-  border-image:
-      url("assets/Border-BG.jpg")  /* source */
-      40 /                         /* slice */
-      12px 0 0 0 /                 /* width */
-      0 0 0 0                      /* outset */
-      round;                       /* repeat */
+  border-image: url("assets/Border-BG.jpg") 40 round;
   background-color: var(--gray-300);
 }
 
@@ -564,6 +559,7 @@ h5 {
 
 .icon-name-hover {
   visibility: hidden;
+  /* display: none; */
   position: absolute;
   left: 10px;
   top: -30px;
@@ -587,6 +583,7 @@ h5 {
 .fab:hover .icon-name-hover,
 .fas:hover .icon-name-hover {
   visibility: visible;
+  /* display: block; */
   transform: translateY(-15px);
 }
 
